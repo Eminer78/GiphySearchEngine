@@ -1,18 +1,23 @@
 const GIPHY_KEY = "e37SrxPpdSHKaXSXTvoD9QaZGIuhGXyk";
 const searchInput = document.querySelector("[name=query-keyword]");
 const title = document.querySelector(".searched-keywords");
-const keywordsContainer = document.querySelector(
+const queryQty = document.querySelector("[name=query-quantity]");
+/*const keywordsContainer = document.querySelector(
   ".searched-keywords-container"
-);
+);*/
+
+const keywordsContainer = document.querySelector(".container-sm");
 
 function formSubmitted(event) {
   event.preventDefault();
   const searchExpression = searchInput.value;
   searchInput.value = "";
   keywordsContainer.innerHTML = "";
+  const searchQty = queryQty.value;
+  queryQty.value = "";
 
   fetch(
-    `http://api.giphy.com/v1/gifs/search?q=${searchExpression}&api_key=${GIPHY_KEY}&limit=5`
+    `http://api.giphy.com/v1/gifs/search?q=${searchExpression}&api_key=${GIPHY_KEY}&limit=${searchQty}`
   )
     .then((response) => response.json())
     .then((result) => {
