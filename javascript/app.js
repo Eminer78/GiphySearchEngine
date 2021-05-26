@@ -6,7 +6,7 @@ const queryQty = document.querySelector("[name=query-quantity]");
   ".searched-keywords-container"
 );*/
 
-const keywordsContainer = document.querySelector(".container-sm");
+const keywordsContainer = document.querySelector(".image-container");
 
 function formSubmitted(event) {
   event.preventDefault();

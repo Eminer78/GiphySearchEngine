@@ -1,22 +1,46 @@
+body {
+  font-family: "Reggae One", cursive;
+  background-color: darkgray;
+}
+
 h1 {
   text-align: center;
   padding-bottom: 25px;
   padding-top: 25px;
 }
-.container-sm {
+
+.image-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: darkgray;
+  min-height: 500px;
 }
 
 img {
-  padding-top: 2.5%;
-  height: 300px;
+  height: 350px;
+  padding: 10px;
+}
+.footer-img {
+  height: 100px;
 }
 form {
-  margin: 10px;
-  padding: 5px;
+  border-style: groove;
+  border-width: 5px;
+  margin: 5px;
+  padding: 25px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  font-weight: bolder;
+}
+footer {
+  height: 150px;
+  text-align: center;
+  align-items: center;
+  background-color: darkgray;
+  border-style: groove;
+  border-width: 5px;
 }
