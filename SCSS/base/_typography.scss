@@ -1,0 +1,64 @@
+body {
+  font-family: $body-font-family;
+  background-color: $body-background-color;
+}
+
+h1 {
+  text-align: $header-text-align;
+  padding-bottom: $header-padding-bottom;
+  padding-top: $header-padding-top;
+}
+
+.image-container {
+  display: $image-container-display;
+  flex-wrap: $image-container-flex-wrap;
+  justify-content: $image-container-justify-content;
+  padding-left: $image-container-padding-left;
+  padding-right: $image-container-padding-right;
+  background-color: $image-container-background-color;
+  min-height: $image-container-min-height;
+}
+
+img {
+  height: $img-height;
+  padding: $img-padding;
+}
+
+.footer-img {
+  height: $footer-img-height;
+}
+
+form {
+  border-style: $form-border-style;
+  border-width: $form-border-width;
+  margin: $form-margin;
+  padding: $form-padding;
+  display: $form-display;
+  flex-direction: $form-flex-direction;
+  justify-content: $form-justify-content;
+  font-weight: $form-font-weight;
+}
+
+label {
+  padding: $label-padding;
+}
+button {
+  padding: $button-padding;
+}
+footer {
+  height: $footer-height;
+  text-align: $footer-text-align;
+  align-items: $footer-align-items;
+  background-color: $footer-background-color;
+  border-style: $footer-border-style;
+  border-width: $footer-border-width;
+  margin: $footer-margin;
+}
+
+.page2-construct-img {
+  display: $page2-construct-img-display;
+  flex-wrap: $page2-construct-img-flex-wrap;
+  justify-content: $page2-construct-img-justify-content;
+  padding-top: $page2-construct-img-padding-top;
+  padding-bottom: $page2-construct-img-padding-bottom;
+}

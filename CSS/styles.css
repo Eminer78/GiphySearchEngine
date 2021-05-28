@@ -23,19 +23,30 @@ img {
   height: 350px;
   padding: 10px;
 }
+
 .footer-img {
   height: 100px;
 }
+
 form {
   border-style: groove;
   border-width: 5px;
   margin: 5px;
-  padding: 25px;
+  padding: 15px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   font-weight: bolder;
 }
+
+label {
+  padding: 5px;
+}
+
+button {
+  padding: 5px;
+}
+
 footer {
   height: 150px;
   text-align: center;
@@ -43,4 +54,15 @@ footer {
   background-color: darkgray;
   border-style: groove;
   border-width: 5px;
+  margin: 5px;
 }
+
+.page2-construct-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 10%;
+  padding-bottom: 15%;
+}
+
+/*# sourceMappingURL=styles.css.map */
