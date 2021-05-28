@@ -1,10 +1,7 @@
 const GIPHY_KEY = "e37SrxPpdSHKaXSXTvoD9QaZGIuhGXyk";
 const searchInput = document.querySelector("[name=query-keyword]");
-const title = document.querySelector(".searched-keywords");
+
 const queryQty = document.querySelector("[name=query-quantity]");
-/*const keywordsContainer = document.querySelector(
-  ".searched-keywords-container"
-);*/
 
 const keywordsContainer = document.querySelector(".image-container");
 
