@@ -1,6 +1,7 @@
 body {
   font-family: "Reggae One", cursive;
   background-color: darkgray;
+  min-width: 575px;
 }
 
 h1 {
@@ -63,6 +64,11 @@ footer {
   justify-content: center;
   padding-top: 10%;
   padding-bottom: 15%;
+}
+
+h3 {
+  text-align: center;
+  color: royalblue;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,6 +1,7 @@
 body {
   font-family: $body-font-family;
   background-color: $body-background-color;
+  min-width: $body-min-width;
 }
 
 h1 {
@@ -61,4 +62,9 @@ footer {
   justify-content: $page2-construct-img-justify-content;
   padding-top: $page2-construct-img-padding-top;
   padding-bottom: $page2-construct-img-padding-bottom;
+}
+
+h3 {
+  text-align: $h3-text-align;
+  color: $h3-color;
 }
