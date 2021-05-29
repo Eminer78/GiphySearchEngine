@@ -14,7 +14,7 @@ function formSubmitted(event) {
   queryQty.value = "";
 
   fetch(
-    `http://api.giphy.com/v1/gifs/search?q=${searchExpression}&api_key=${GIPHY_KEY}&limit=${searchQty}`
+    `https://api.giphy.com/v1/gifs/search?q=${searchExpression}&api_key=${GIPHY_KEY}&limit=${searchQty}`
   )
     .then((response) => response.json())
     .then((result) => {
